@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zon"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FF0000"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/notsearched"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="@drawable/roundedbackground"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/txtCityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/dorp"
+            android:textColor="@android:color/white"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/lblClouds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCityname"
+            android:layout_marginTop="25sp"
+            android:text="@string/wolkenpercentage"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/lblWind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/lblClouds"
+            android:layout_below="@+id/lblTemperature"
+            android:layout_marginTop="29dp"
+            android:text="@string/windsnelheid"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/lblTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/lblClouds"
+            android:layout_below="@+id/lblClouds"
+            android:layout_marginTop="29dp"
+            android:gravity="left"
+            android:text="@string/temperatuur"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txtClouds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblClouds"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/lblClouds"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txtWind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblWind"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/lblWind"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txtTemperature"
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lblWind"
+            android:layout_alignLeft="@+id/txtWind"
+            android:layout_alignRight="@+id/txtClouds"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</LinearLayout>

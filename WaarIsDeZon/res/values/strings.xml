@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Waar is de zon?</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zonnigsteplek">De zonnigste plek in België is op dit moment</string>
+    <string name="zonnigstekust">De zonnigste plek aan de Belgische kust is op dit moment</string>
+    <string name="zonnigstebuurt">De zonnigste plek binnen %1$s km van %2$s is op dit moment</string>
+    <string name="dorp">Dorp</string>
+    <string name="wolkenpercentage">Wolkenpercentage:</string>
+    <string name="temperatuur">Temperatuur:</string>
+    <string name="windsnelheid">Windsnelheid:</string>
+    <string name="zoek">Zoek</string>
+    <string name="postcode_of_dorpsnaam">Postcode of Dorpsnaam</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="in_mijn_buurt">In Mijn Buurt</string>
+    <string name="radius">Radius (in Km)</string>
+    <string name="refresh">Ververs</string>
+    <string name="search">Search</string>
+    <string name="notsearched">Druk op de zoekknop rechtsboven om te beginnen</string>
+    <string name="dragamstudios_op_de_playstore">Apps van Dragamstudios</string>
+    <string name="noinfo">Geen Info</string>
+    <string name="waar_is_de_zon_mobiele_site">Mobiele Site</string>
+    <string name="nocityfound">Kon geen zonnig dorp vinden</string>
+    <string name="dragamstudios_op_facebook">Dragamstudios op Facebook</string>
+
+</resources>

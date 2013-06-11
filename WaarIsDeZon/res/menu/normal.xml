@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/navigationrefresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_mobilesite"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/waar_is_de_zon_mobiele_site"/>
+    <item
+        android:id="@+id/action_gotodragam"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/dragamstudios_op_de_playstore"/>
+    <item
+        android:id="@+id/action_dragamfacebook"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/dragamstudios_op_facebook"/>
+
+</menu>
