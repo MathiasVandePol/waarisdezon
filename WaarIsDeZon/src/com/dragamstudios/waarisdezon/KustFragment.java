@@ -29,7 +29,6 @@ public class KustFragment extends BaseFragment {
 		super.onOptionsItemSelected(item);
 		switch (item.getItemId()) {
 		default:
-			refresh.setActionView(R.layout.refreshprocess);
 			dataGetter.getSunniestCoast();
 			break;
 		}

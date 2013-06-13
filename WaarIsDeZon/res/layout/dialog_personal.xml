@@ -39,6 +39,7 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:minLines="0"
             android:ems="10"
             android:hint="@string/dorp" />
     </LinearLayout>
@@ -65,5 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5" />
     </LinearLayout>
+    
+    
 
 </LinearLayout>

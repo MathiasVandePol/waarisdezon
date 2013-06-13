@@ -453,6 +453,10 @@ public abstract class Request<T> implements Comparable<Request<T>> {
         return mRetryPolicy.getCurrentTimeout();
     }
 
+    public final void setTimeoutMs(int timeout) {
+        mRetryPolicy.setCurrentTimeout(timeout);
+    }
+    
     /**
      * Returns the retry policy that should be used  for this request.
      */

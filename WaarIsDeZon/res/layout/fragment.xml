@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/zon"
@@ -12,7 +12,7 @@
         android:background="#88FF0000"
         android:gravity="center"
         android:padding="15dp"
-        android:text="@string/notsearched"
+        android:text="@string/zonnigsteplek"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@android:color/white" />
@@ -20,9 +20,11 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
         android:layout_margin="20sp"
         android:background="@drawable/roundedbackground"
+        android:gravity="center_vertical"
         android:padding="15dp" >
 
         <TextView
@@ -73,7 +75,15 @@
             android:layout_alignBottom="@+id/lblClouds"
             android:layout_marginLeft="25dp"
             android:layout_toRightOf="@+id/lblClouds"
-            android:text=""
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txtTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblTemperature"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/lblTemperature"
             android:textColor="@android:color/white" />
 
         <TextView
@@ -83,18 +93,18 @@
             android:layout_alignBottom="@+id/lblWind"
             android:layout_marginLeft="25dp"
             android:layout_toRightOf="@+id/lblWind"
-            android:text=""
             android:textColor="@android:color/white" />
-
-        <TextView
-            android:id="@+id/txtTemperature"
-            android:layout_width="60sp"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/lblWind"
-            android:layout_alignLeft="@+id/txtWind"
-            android:layout_alignRight="@+id/txtClouds"
-            android:textColor="@android:color/white" />
-
     </RelativeLayout>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#88FF0000"
+        android:gravity="bottom|center"
+        android:textColor="@android:color/white"
+        android:text="@string/datum" />
+
+</RelativeLayout>

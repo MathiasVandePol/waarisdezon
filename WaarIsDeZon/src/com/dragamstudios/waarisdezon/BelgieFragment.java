@@ -17,7 +17,6 @@ public class BelgieFragment extends BaseFragment {
 		super.onOptionsItemSelected(item);
 		switch (item.getItemId()) {
 		case R.id.action_refresh:
-			item.setActionView(R.layout.refreshprocess);
 			dataGetter.getSunniestPlace();
 			break;
 		}

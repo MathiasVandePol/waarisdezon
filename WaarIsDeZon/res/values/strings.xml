@@ -20,10 +20,14 @@
     <string name="refresh">Ververs</string>
     <string name="search">Search</string>
     <string name="notsearched">Druk op de zoekknop rechtsboven om te beginnen</string>
-    <string name="dragamstudios_op_de_playstore">Apps van Dragamstudios</string>
+    <string name="dragamstudios_op_de_playstore">Apps van Dragam Studios</string>
     <string name="noinfo">Geen Info</string>
     <string name="waar_is_de_zon_mobiele_site">Mobiele Site</string>
     <string name="nocityfound">Kon geen zonnig dorp vinden</string>
-    <string name="dragamstudios_op_facebook">Dragamstudios op Facebook</string>
+    <string name="cityfound">Zonnig dorp gevonden!</string>
+    <string name="dragamstudios_op_facebook">Dragam Studios op Facebook</string>
+    <string name="datum">De laatste update was op: %1$s</string>
+        <string name="noconnection">Geen Netwerkverbinding</string>
+    
 
 </resources>

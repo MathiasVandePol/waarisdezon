@@ -26,6 +26,9 @@ public interface RetryPolicy {
      */
     public int getCurrentTimeout();
 
+    public void setCurrentTimeout(int timeout);
+
+    
     /**
      * Returns the current retry count (used for logging).
      */
